@@ -68,7 +68,7 @@ public:
             else{
                 return findKthElm(a,abeg,aend,b,bmid+1,bend,k-(bmid-bbeg+1));
             }
-        } 
+        }
     }
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         int sz=nums1.size()+nums2.size();
@@ -85,16 +85,16 @@ public:
 ```
 
 作者：nojoker
-链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/jiang-qi-zhuan-wei-zhao-liang-ge-you-xu-shu-zu-de-/
+链接：<https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/jiang-qi-zhuan-wei-zhao-liang-ge-you-xu-shu-zu-de-/>
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 ## 解题结果
 
-![cpp](C:\Users\user\Desktop\LeetCodeExercise\FindKth\Image\cpp.png)
+![cpp](Image\cpp.png)
 
 C++代码执行结果如上，平均运行时间不超过1.1us
 
-![csharp](C:\Users\user\Desktop\LeetCodeExercise\FindKth\Image\csharp.png)
+![csharp](Image\csharp.png)
 
 C#代码执行结果如上，平均运行时间不超过1ms，实际结果可能因C#使用了类函数而有偏差
